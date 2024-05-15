@@ -1,10 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Snake Game
+This is a classic Snake game built using Next.js. The game is designed to be fun and engaging, with support for both desktop and mobile devices.
 
-## Getting Started
+Features
+Classic Snake Gameplay: Control the snake to eat food and grow longer.
+Responsive Design: The game is designed to work seamlessly on both desktop and mobile devices.
+Mobile Controls: On mobile devices, directional buttons are provided for easier control.
+Dynamic Theme: Users can toggle between light and dark themes.
+Encouragement Messages: Random encouragement messages are displayed every time the snake eats food.
+Player Stats: Displays score, level, and number of wins. The level increases every 5 points, and the game speed increases accordingly.
+Game Over and Restart: Displays a game over message and a button to restart the game when the snake collides with itself or the walls.
+How to Play
+Desktop Controls:
 
-First, run the development server:
+Use the arrow keys (↑, ↓, ←, →) to control the direction of the snake.
+Try to eat the food that appears on the screen. Each time the snake eats food, it grows longer and the score increases.
+Avoid colliding with the walls or the snake's own body.
+Mobile Controls:
 
-```bash
+On mobile devices, use the on-screen directional buttons (↑, ↓, ←, →) to control the snake.
+The game mechanics are the same as the desktop version.
+Game Features:
+
+As you score points, the level increases every 5 points and the game speed increases.
+Encouragement messages are displayed every time the snake eats food.
+The game ends when the snake collides with the walls or itself, and a game over message is displayed along with the option to restart the game.
+Technologies Used
+Next.js: A React framework for building server-side rendered applications.
+React: A JavaScript library for building user interfaces.
+JavaScript: The core programming language used for game logic.
+CSS: Used for styling the game interface and ensuring responsiveness.
+HTML5 Canvas: Used for rendering the game graphics.
+Getting Started
+First, clone the repository:
+
+bash
+نسخ الكود
+git clone https://github.com/alanqoudif/snake-game.git
+cd snake-game
+Then, install the dependencies:
+
+bash
+نسخ الكود
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+Finally, run the development server:
+
+bash
+نسخ الكود
 npm run dev
 # or
 yarn dev
@@ -12,29 +59,14 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+Open http://localhost:3000 with your browser to see the game in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
+Learn More
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js Documentation - learn about Next.js features and API.
+Learn Next.js - an interactive Next.js tutorial.
+Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our Next.js deployment documentation for more details.
